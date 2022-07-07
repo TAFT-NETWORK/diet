@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "894223572802",
+    "project_id": "deneme11-86095",
+    "storage_bucket": "deneme11-86095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894223572802:android:80c30fa610c895cc36f2db",
+        "android_client_info": {
+          "package_name": "wismart.com.mycompany.deneme11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894223572802-t3aul2p2rj59tb7bna1gkmc9f4e9ha2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wismart.com.mycompany.deneme11",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "894223572802-dpnali56qnh03ds2rdbn7ai009k4a48b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1gMwa0BCkRa7m7yOZhbTwIKKVt0799ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894223572802-dpnali56qnh03ds2rdbn7ai009k4a48b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "894223572802-d7baegfv2h6oq2atqq73jdnqs394m9dn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "wismart.com.mycompany.deneme11"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
