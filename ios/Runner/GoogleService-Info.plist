@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>894223572802-d7baegfv2h6oq2atqq73jdnqs394m9dn.apps.googleusercontent.com</string>
+	<string>792156963042-nj2shejd52a1o5galmls7givvcg8imo3.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.894223572802-d7baegfv2h6oq2atqq73jdnqs394m9dn</string>
+	<string>com.googleusercontent.apps.792156963042-nj2shejd52a1o5galmls7givvcg8imo3</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>894223572802-t3aul2p2rj59tb7bna1gkmc9f4e9ha2l.apps.googleusercontent.com</string>
+	<string>792156963042-1vo11qvoij1kqgm089d1md3cd9i013lk.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCEnGYeIhvxKERRFGDMMZmuHKaRxsMOKC4</string>
+	<string>AIzaSyBusb6IJ7Frz-C3gVrlJTTlnqt4ypKagtQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>894223572802</string>
+	<string>792156963042</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>wismart.com.mycompany.deneme11</string>
+	<string>wismart.tracker.health.ai</string>
 	<key>PROJECT_ID</key>
-	<string>deneme11-86095</string>
+	<string>diyet-saati-c14b7</string>
 	<key>STORAGE_BUCKET</key>
-	<string>deneme11-86095.appspot.com</string>
+	<string>diyet-saati-c14b7.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:894223572802:ios:15c27bae279321cd36f2db</string>
+	<string>1:792156963042:ios:80bd774a93616cdac2debb</string>
 </dict>
 </plist>

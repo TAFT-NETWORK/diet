@@ -1,6 +1,6 @@
 {
-    "name": "deneme11",
-    "short_name": "deneme11",
+    "name": "HealthApp",
+    "short_name": "HealthApp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

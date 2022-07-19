@@ -1,4 +1,4 @@
-package wismart.com.mycompany.deneme11
+package wismart.tracker.health.ai
 
 import io.flutter.embedding.android.FlutterActivity
 

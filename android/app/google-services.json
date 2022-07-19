@@ -1,48 +1,136 @@
 {
   "project_info": {
-    "project_number": "894223572802",
-    "project_id": "deneme11-86095",
-    "storage_bucket": "deneme11-86095.appspot.com"
+    "project_number": "792156963042",
+    "project_id": "diyet-saati-c14b7",
+    "storage_bucket": "diyet-saati-c14b7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:894223572802:android:80c30fa610c895cc36f2db",
+        "mobilesdk_app_id": "1:792156963042:android:aa9f3e6db38b7d0bc2debb",
         "android_client_info": {
-          "package_name": "wismart.com.mycompany.deneme11"
+          "package_name": "com.mycompany.saatdiyetapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "894223572802-t3aul2p2rj59tb7bna1gkmc9f4e9ha2l.apps.googleusercontent.com",
+          "client_id": "792156963042-1vo11qvoij1kqgm089d1md3cd9i013lk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "wismart.com.mycompany.deneme11",
+            "package_name": "com.mycompany.saatdiyetapp",
             "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
           }
         },
         {
-          "client_id": "894223572802-dpnali56qnh03ds2rdbn7ai009k4a48b.apps.googleusercontent.com",
+          "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1gMwa0BCkRa7m7yOZhbTwIKKVt0799ys"
+          "current_key": "AIzaSyBytbpYc4gJIafyrRlxpFOjbwT0M-ajwLw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "894223572802-dpnali56qnh03ds2rdbn7ai009k4a48b.apps.googleusercontent.com",
+              "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "894223572802-d7baegfv2h6oq2atqq73jdnqs394m9dn.apps.googleusercontent.com",
+              "client_id": "792156963042-ars13qeqmjkc9ipt29pvl7gl55qjl1us.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "wismart.com.mycompany.deneme11"
+                "bundle_id": "com.mycompany.saatdiyetapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792156963042:android:28ea2ef51260dd36c2debb",
+        "android_client_info": {
+          "package_name": "tracker.health.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792156963042-6gg0k6lv54fsa5coeoe0pvl7j0mdspfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tracker.health.ai",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytbpYc4gJIafyrRlxpFOjbwT0M-ajwLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792156963042-ars13qeqmjkc9ipt29pvl7gl55qjl1us.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.saatdiyetapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792156963042:android:1336630f08ef9fdac2debb",
+        "android_client_info": {
+          "package_name": "wismart.tracker.health.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792156963042-v4gjbr271spoam63chf13skj4j5f0f6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wismart.tracker.health.ai",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytbpYc4gJIafyrRlxpFOjbwT0M-ajwLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792156963042-cq5nsaeqg4o8kunjq24lldpqhbcg8ih3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792156963042-ars13qeqmjkc9ipt29pvl7gl55qjl1us.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.saatdiyetapp"
               }
             }
           ]
