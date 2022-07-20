@@ -12,21 +12,9 @@ import 'package:permission_handler/permission_handler.dart';
 
 import 'package:health/health.dart';
 
+void main() => runApp(HealthApp());
+
 class HealthApp extends StatefulWidget {
-  const HealthApp({
-    Key key,
-    this.width,
-    this.height,
-  }) : super(key: key);
-
-  final double width;
-  final double height;
-
-  @override
-  _HealthAppState createState() => _HealthAppState();
-}
-
-class _HealthAppState extends State<HealthApp> {
   @override
   _HealthAppState createState() => _HealthAppState();
 }
@@ -83,7 +71,7 @@ class _HealthAppState extends State<HealthApp> {
     // note that strictly speaking, the [permissions] are not
     // needed, since we only want READ access.
     bool requested =
-        await health.requestAuthorization(types, permissions: permissions);
+    await health.requestAuthorization(types, permissions: permissions);
     print('requested: $requested');
 
     // If we are trying to read Step Count, Workout, Sleep or other data that requires
@@ -98,7 +86,7 @@ class _HealthAppState extends State<HealthApp> {
       try {
         // fetch health data
         List<HealthDataPoint> healthData =
-            await health.getHealthDataFromTypes(yesterday, now, types);
+        await health.getHealthDataFromTypes(yesterday, now, types);
         // save all the new data points (only the first 100)
         _healthDataList.addAll((healthData.length < 100)
             ? healthData
@@ -116,7 +104,7 @@ class _HealthAppState extends State<HealthApp> {
       // update the UI to display the results
       setState(() {
         _state =
-            _healthDataList.isEmpty ? AppState.NO_DATA : AppState.DATA_READY;
+        _healthDataList.isEmpty ? AppState.NO_DATA : AppState.DATA_READY;
       });
     } else {
       print("Authorization not granted");
@@ -151,9 +139,9 @@ class _HealthAppState extends State<HealthApp> {
       HealthDataAccess.READ_WRITE,
       // HealthDataAccess.READ_WRITE,
     ];
-    late bool perm;
-    bool? hasPermissions =
-        await HealthFactory.hasPermissions(types, permissions: rights);
+    bool perm;
+    bool hasPermissions =
+    await HealthFactory.hasPermissions(types, permissions: rights);
     if (hasPermissions == false) {
       perm = await health.requestAuthorization(types, permissions: permissions);
     }
@@ -165,7 +153,7 @@ class _HealthAppState extends State<HealthApp> {
 
     // Store a height
     success &=
-        await health.writeHealthData(1.93, HealthDataType.HEIGHT, earlier, now);
+    await health.writeHealthData(1.93, HealthDataType.HEIGHT, earlier, now);
 
     // Store a Blood Glucose measurement
     _mgdl = Random().nextInt(10) * 1.0;
@@ -208,7 +196,7 @@ class _HealthAppState extends State<HealthApp> {
 
   /// Fetch steps from the health plugin and show them in the app.
   Future fetchStepData() async {
-    int? steps;
+    int steps;
 
     // get steps for today (i.e., since midnight)
     final now = DateTime.now();
