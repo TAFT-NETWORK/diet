@@ -68,7 +68,7 @@ class _AppointmentDetailsWidgetState extends State<AppointmentDetailsWidget> {
             centerTitle: false,
             elevation: 0,
           ),
-          backgroundColor: FlutterFlowTheme.of(context).secondaryColor,
+          backgroundColor: FlutterFlowTheme.of(context).background,
           body: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.max,

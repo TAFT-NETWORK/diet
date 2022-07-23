@@ -8,14 +8,14 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
-class AnasayfaWidget extends StatefulWidget {
-  const AnasayfaWidget({Key key}) : super(key: key);
+class VerilerWidget extends StatefulWidget {
+  const VerilerWidget({Key key}) : super(key: key);
 
   @override
-  _AnasayfaWidgetState createState() => _AnasayfaWidgetState();
+  _VerilerWidgetState createState() => _VerilerWidgetState();
 }
 
-class _AnasayfaWidgetState extends State<AnasayfaWidget> {
+class _VerilerWidgetState extends State<VerilerWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

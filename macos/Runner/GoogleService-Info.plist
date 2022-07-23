@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>792156963042-nj2shejd52a1o5galmls7givvcg8imo3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.792156963042-nj2shejd52a1o5galmls7givvcg8imo3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>792156963042-1vo11qvoij1kqgm089d1md3cd9i013lk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBusb6IJ7Frz-C3gVrlJTTlnqt4ypKagtQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>792156963042</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wismart.tracker.health.ai</string>
+	<key>PROJECT_ID</key>
+	<string>diyet-saati-c14b7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>diyet-saati-c14b7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:792156963042:ios:80bd774a93616cdac2debb</string>
+</dict>
+</plist>

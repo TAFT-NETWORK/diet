@@ -95,6 +95,30 @@ class _$UsersRecordSerializer implements StructuredSerializer<UsersRecord> {
         ..add(serializers.serialize(value,
             specifiedType: const FullType(String)));
     }
+    value = object.steps;
+    if (value != null) {
+      result
+        ..add('steps')
+        ..add(serializers.serialize(value, specifiedType: const FullType(int)));
+    }
+    value = object.height;
+    if (value != null) {
+      result
+        ..add('height')
+        ..add(serializers.serialize(value, specifiedType: const FullType(int)));
+    }
+    value = object.workout;
+    if (value != null) {
+      result
+        ..add('workout')
+        ..add(serializers.serialize(value, specifiedType: const FullType(int)));
+    }
+    value = object.weight;
+    if (value != null) {
+      result
+        ..add('weight')
+        ..add(serializers.serialize(value, specifiedType: const FullType(int)));
+    }
     value = object.reference;
     if (value != null) {
       result
@@ -161,6 +185,22 @@ class _$UsersRecordSerializer implements StructuredSerializer<UsersRecord> {
           result.userSex = serializers.deserialize(value,
               specifiedType: const FullType(String)) as String;
           break;
+        case 'steps':
+          result.steps = serializers.deserialize(value,
+              specifiedType: const FullType(int)) as int;
+          break;
+        case 'height':
+          result.height = serializers.deserialize(value,
+              specifiedType: const FullType(int)) as int;
+          break;
+        case 'workout':
+          result.workout = serializers.deserialize(value,
+              specifiedType: const FullType(int)) as int;
+          break;
+        case 'weight':
+          result.weight = serializers.deserialize(value,
+              specifiedType: const FullType(int)) as int;
+          break;
         case 'Document__Reference__Field':
           result.reference = serializers.deserialize(value,
                   specifiedType: const FullType(
@@ -198,6 +238,14 @@ class _$UsersRecord extends UsersRecord {
   @override
   final String userSex;
   @override
+  final int steps;
+  @override
+  final int height;
+  @override
+  final int workout;
+  @override
+  final int weight;
+  @override
   final DocumentReference<Object> reference;
 
   factory _$UsersRecord([void Function(UsersRecordBuilder) updates]) =>
@@ -215,6 +263,10 @@ class _$UsersRecord extends UsersRecord {
       this.photoUrl,
       this.createdTime,
       this.userSex,
+      this.steps,
+      this.height,
+      this.workout,
+      this.weight,
       this.reference})
       : super._();
 
@@ -240,6 +292,10 @@ class _$UsersRecord extends UsersRecord {
         photoUrl == other.photoUrl &&
         createdTime == other.createdTime &&
         userSex == other.userSex &&
+        steps == other.steps &&
+        height == other.height &&
+        workout == other.workout &&
+        weight == other.weight &&
         reference == other.reference;
   }
 
@@ -255,17 +311,29 @@ class _$UsersRecord extends UsersRecord {
                                 $jc(
                                     $jc(
                                         $jc(
-                                            $jc($jc(0, displayName.hashCode),
-                                                email.hashCode),
-                                            password.hashCode),
-                                        uid.hashCode),
-                                    age.hashCode),
-                                ailments.hashCode),
-                            location.hashCode),
-                        phoneNumber.hashCode),
-                    photoUrl.hashCode),
-                createdTime.hashCode),
-            userSex.hashCode),
+                                            $jc(
+                                                $jc(
+                                                    $jc(
+                                                        $jc(
+                                                            $jc(
+                                                                $jc(
+                                                                    0,
+                                                                    displayName
+                                                                        .hashCode),
+                                                                email.hashCode),
+                                                            password.hashCode),
+                                                        uid.hashCode),
+                                                    age.hashCode),
+                                                ailments.hashCode),
+                                            location.hashCode),
+                                        phoneNumber.hashCode),
+                                    photoUrl.hashCode),
+                                createdTime.hashCode),
+                            userSex.hashCode),
+                        steps.hashCode),
+                    height.hashCode),
+                workout.hashCode),
+            weight.hashCode),
         reference.hashCode));
   }
 
@@ -283,6 +351,10 @@ class _$UsersRecord extends UsersRecord {
           ..add('photoUrl', photoUrl)
           ..add('createdTime', createdTime)
           ..add('userSex', userSex)
+          ..add('steps', steps)
+          ..add('height', height)
+          ..add('workout', workout)
+          ..add('weight', weight)
           ..add('reference', reference))
         .toString();
   }
@@ -335,6 +407,22 @@ class UsersRecordBuilder implements Builder<UsersRecord, UsersRecordBuilder> {
   String get userSex => _$this._userSex;
   set userSex(String userSex) => _$this._userSex = userSex;
 
+  int _steps;
+  int get steps => _$this._steps;
+  set steps(int steps) => _$this._steps = steps;
+
+  int _height;
+  int get height => _$this._height;
+  set height(int height) => _$this._height = height;
+
+  int _workout;
+  int get workout => _$this._workout;
+  set workout(int workout) => _$this._workout = workout;
+
+  int _weight;
+  int get weight => _$this._weight;
+  set weight(int weight) => _$this._weight = weight;
+
   DocumentReference<Object> _reference;
   DocumentReference<Object> get reference => _$this._reference;
   set reference(DocumentReference<Object> reference) =>
@@ -358,6 +446,10 @@ class UsersRecordBuilder implements Builder<UsersRecord, UsersRecordBuilder> {
       _photoUrl = $v.photoUrl;
       _createdTime = $v.createdTime;
       _userSex = $v.userSex;
+      _steps = $v.steps;
+      _height = $v.height;
+      _workout = $v.workout;
+      _weight = $v.weight;
       _reference = $v.reference;
       _$v = null;
     }
@@ -390,6 +482,10 @@ class UsersRecordBuilder implements Builder<UsersRecord, UsersRecordBuilder> {
             photoUrl: photoUrl,
             createdTime: createdTime,
             userSex: userSex,
+            steps: steps,
+            height: height,
+            workout: workout,
+            weight: weight,
             reference: reference);
     replace(_$result);
     return _$result;

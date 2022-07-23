@@ -39,7 +39,7 @@ class _IletisimWidgetState extends State<IletisimWidget> {
         final iletisimUsersRecord = snapshot.data;
         return Scaffold(
           key: scaffoldKey,
-          backgroundColor: FlutterFlowTheme.of(context).secondaryColor,
+          backgroundColor: FlutterFlowTheme.of(context).background,
           body: SafeArea(
             child: Column(
               mainAxisSize: MainAxisSize.max,

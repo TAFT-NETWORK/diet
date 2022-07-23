@@ -20,7 +20,7 @@ class _BasariliWidgetState extends State<BasariliWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).secondaryColor,
+      backgroundColor: FlutterFlowTheme.of(context).background,
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),

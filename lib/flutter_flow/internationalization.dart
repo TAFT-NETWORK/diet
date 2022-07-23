@@ -42,6 +42,17 @@ class FFLocalizationsDelegate extends LocalizationsDelegate<FFLocalizations> {
 }
 
 final kTranslationsMap = <Map<String, Map<String, String>>>[
+  // Splash
+  {
+    'xwzh1buw': {
+      'tr': 'Klinik Ötesi',
+      'en': '',
+    },
+    'dtrjnsp7': {
+      'tr': 'Akıllı Saatler Ve Mobil Cihazlar İle Uyumludur \n\n',
+      'en': '',
+    },
+  },
   // giris
   {
     'kf4ml98u': {
@@ -61,6 +72,34 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     '2tb2c7vy': {
+      'tr': 'Home',
+      'en': '',
+    },
+  },
+  // SmsOnay
+  {
+    'lr5wgzav': {
+      'tr': 'Sms Onay Sayfası ',
+      'en': '',
+    },
+    'ibkf73yf': {
+      'tr':
+          '\nHesabınızla ilişkili telefon numarasına gelen doğrulama kodunu yazınız.',
+      'en': '',
+    },
+    'g5c9z7w3': {
+      'tr': 'Onay Kodu',
+      'en': '',
+    },
+    'ott262mk': {
+      'tr': '',
+      'en': '',
+    },
+    '0t8j07md': {
+      'tr': 'Kodu Gönder',
+      'en': '',
+    },
+    'rzg5rsjt': {
       'tr': 'Home',
       'en': '',
     },
@@ -188,67 +227,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'meil5moj': {
-      'tr': 'Profil',
+      'tr': 'Yönetim',
       'en': '',
     },
   },
-  // SmsOnay
-  {
-    'lr5wgzav': {
-      'tr': 'Sms Onay Sayfası ',
-      'en': '',
-    },
-    'ibkf73yf': {
-      'tr':
-          '\nHesabınızla ilişkili telefon numarasına gelen doğrulama kodunu yazınız.',
-      'en': '',
-    },
-    'g5c9z7w3': {
-      'tr': 'Onay Kodu',
-      'en': '',
-    },
-    'ott262mk': {
-      'tr': '',
-      'en': '',
-    },
-    '0t8j07md': {
-      'tr': 'Kodu Gönder',
-      'en': '',
-    },
-    'rzg5rsjt': {
-      'tr': 'Home',
-      'en': '',
-    },
-  },
-  // SoruSor
-  {
-    't82ykgrp': {
-      'tr': 'Sorular 1/3',
-      'en': '',
-    },
-    'c0pvedd3': {
-      'tr': 'Bugün diyete başlamak için kendini nsaıl hissediyorsun ?',
-      'en': '',
-    },
-    'v11zi6kd': {
-      'tr':
-          'Bu giden sorulardan sonra 2 gün içinde veya sizin için atanmış tarihte diyetinizie başlamış olacaksınız.',
-      'en': '',
-    },
-    'xnexdcho': {
-      'tr': 'Sonraki Soruya Geç',
-      'en': '',
-    },
-    '3avua3nq': {
-      'tr': 'Diyete Başla',
-      'en': '',
-    },
-    'uhthcwcj': {
-      'tr': 'Home',
-      'en': '',
-    },
-  },
-  // Anasayfa
+  // Veriler
   {
     'e11e6vb1': {
       'tr': 'Sisteme kayıtlı verileriniz görüntülenmektedir.',
@@ -327,6 +310,34 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'dr00kw5j': {
+      'tr': 'Home',
+      'en': '',
+    },
+  },
+  // SoruSor
+  {
+    't82ykgrp': {
+      'tr': 'Sorular 1/3',
+      'en': '',
+    },
+    'c0pvedd3': {
+      'tr': 'Bugün diyete başlamak için kendini nsaıl hissediyorsun ?',
+      'en': '',
+    },
+    'v11zi6kd': {
+      'tr':
+          'Bu giden sorulardan sonra 2 gün içinde veya sizin için atanmış tarihte diyetinizie başlamış olacaksınız.',
+      'en': '',
+    },
+    'xnexdcho': {
+      'tr': 'Sonraki Soruya Geç',
+      'en': '',
+    },
+    '3avua3nq': {
+      'tr': 'Diyete Başla',
+      'en': '',
+    },
+    'uhthcwcj': {
       'tr': 'Home',
       'en': '',
     },
@@ -438,33 +449,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
   },
-  // findSymptoms
-  {
-    'pulppgqa': {
-      'tr': 'Yapay Zeka Arama Motoru',
-      'en': '',
-    },
-    'otaxxqjk': {
-      'tr': 'Yemek Adı',
-      'en': '',
-    },
-    '6plxl3dh': {
-      'tr': 'Yemek Adı Veya Sebze/Meyve',
-      'en': '',
-    },
-    'e67v77kp': {
-      'tr': '[Symptom Name]',
-      'en': '',
-    },
-    'l8i0et6w': {
-      'tr': 'Yapay Zeka İle Sizlere Sağlık Verilerini Sunmaktayız.',
-      'en': '',
-    },
-    '7ggso12q': {
-      'tr': 'Symptoms',
-      'en': '',
-    },
-  },
   // appointmentDetails
   {
     'pihqoajb': {
@@ -497,6 +481,52 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '12fxxury': {
       'tr': 'Home',
+      'en': '',
+    },
+  },
+  // basarili
+  {
+    '3sl9y9op': {
+      'tr': 'Tebrikler!',
+      'en': '',
+    },
+    'lxt2qh9q': {
+      'tr': 'Başarılı bir şekide tamamlandı..',
+      'en': '',
+    },
+    'wrx7af6o': {
+      'tr': 'Devam',
+      'en': '',
+    },
+    'bwo1gpke': {
+      'tr': 'Home',
+      'en': '',
+    },
+  },
+  // findSymptoms
+  {
+    'pulppgqa': {
+      'tr': 'Yapay Zeka Arama Motoru',
+      'en': '',
+    },
+    'otaxxqjk': {
+      'tr': 'Yemek Adı',
+      'en': '',
+    },
+    '6plxl3dh': {
+      'tr': 'Yemek Adı Veya Sebze/Meyve',
+      'en': '',
+    },
+    'e67v77kp': {
+      'tr': '[Symptom Name]',
+      'en': '',
+    },
+    'l8i0et6w': {
+      'tr': 'Yapay Zeka İle Sizlere Sağlık Verilerini Sunmaktayız.',
+      'en': '',
+    },
+    '7ggso12q': {
+      'tr': 'Symptoms',
       'en': '',
     },
   },
@@ -536,25 +566,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'qcgngdpg': {
       'tr': 'Profile',
-      'en': '',
-    },
-  },
-  // basarili
-  {
-    '3sl9y9op': {
-      'tr': 'Tebrikler!',
-      'en': '',
-    },
-    'lxt2qh9q': {
-      'tr': 'Başarılı bir şekide tamamlandı..',
-      'en': '',
-    },
-    'wrx7af6o': {
-      'tr': 'Devam',
-      'en': '',
-    },
-    'bwo1gpke': {
-      'tr': 'Home',
       'en': '',
     },
   },

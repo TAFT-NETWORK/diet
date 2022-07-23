@@ -1,6 +1,7 @@
 import '../auth/auth_util.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../main.dart';
 import '../saat_eslesme/saat_eslesme_widget.dart';
 import '../sporyap/sporyap_widget.dart';
 import 'package:flutter/material.dart';
@@ -527,28 +528,39 @@ class _NsyfWidgetState extends State<NsyfWidget> {
                               child: Padding(
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(4, 4, 4, 4),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Icon(
-                                      Icons.settings,
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
-                                      size: 40,
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 8, 0, 0),
-                                      child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'jixhq959' /* Ayarlar */,
-                                        ),
-                                        style: FlutterFlowTheme.of(context)
-                                            .bodyText1,
+                                child: InkWell(
+                                  onTap: () async {
+                                    await Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => NavBarPage(
+                                            initialPage: 'profilePage'),
                                       ),
-                                    ),
-                                  ],
+                                    );
+                                  },
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.settings,
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        size: 40,
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 8, 0, 0),
+                                        child: Text(
+                                          FFLocalizations.of(context).getText(
+                                            'jixhq959' /* Ayarlar */,
+                                          ),
+                                          style: FlutterFlowTheme.of(context)
+                                              .bodyText1,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),

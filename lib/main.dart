@@ -92,7 +92,7 @@ class _MyAppState extends State<MyApp> {
                   builder: (context) => Image.asset(
                     'assets/images/Kilinik_tesi.svg',
                     width: 360,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),
@@ -127,7 +127,7 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'nsyf': NsyfWidget(),
-      'Anasayfa': AnasayfaWidget(),
+      'Veriler': VerilerWidget(),
       'iletisim': IletisimWidget(),
       'findSymptoms': FindSymptomsWidget(),
       'profilePage': ProfilePageWidget(),
@@ -144,7 +144,7 @@ class _NavBarPageState extends State<NavBarPage> {
         selectedItemColor: Colors.white,
         unselectedItemColor: Color(0xFFE6D2D2),
         selectedBackgroundColor: Color(0x00000000),
-        borderRadius: 12,
+        borderRadius: 8,
         itemBorderRadius: 8,
         margin: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
         padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
@@ -162,7 +162,7 @@ class _NavBarPageState extends State<NavBarPage> {
                 ),
                 Text(
                   FFLocalizations.of(context).getText(
-                    'meil5moj' /* Profil */,
+                    'meil5moj' /* Yönetim */,
                   ),
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(

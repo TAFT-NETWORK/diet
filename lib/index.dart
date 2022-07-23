@@ -1,17 +1,18 @@
 // Export pages
+export 'splash/splash_widget.dart' show SplashWidget;
 export 'giris/giris_widget.dart' show GirisWidget;
-export 'nsyf/nsyf_widget.dart' show NsyfWidget;
 export 'sms_onay/sms_onay_widget.dart' show SmsOnayWidget;
+export 'nsyf/nsyf_widget.dart' show NsyfWidget;
+export 'veriler/veriler_widget.dart' show VerilerWidget;
 export 'soru_sor/soru_sor_widget.dart' show SoruSorWidget;
-export 'anasayfa/anasayfa_widget.dart' show AnasayfaWidget;
 export 'add_another_profile/add_another_profile_widget.dart'
     show AddAnotherProfileWidget;
 export 'iletisim/iletisim_widget.dart' show IletisimWidget;
-export 'find_symptoms/find_symptoms_widget.dart' show FindSymptomsWidget;
 export 'appointment_details/appointment_details_widget.dart'
     show AppointmentDetailsWidget;
-export 'profile_page/profile_page_widget.dart' show ProfilePageWidget;
 export 'basarili/basarili_widget.dart' show BasariliWidget;
+export 'find_symptoms/find_symptoms_widget.dart' show FindSymptomsWidget;
+export 'profile_page/profile_page_widget.dart' show ProfilePageWidget;
 export 'sporyap/sporyap_widget.dart' show SporyapWidget;
 export 'aktivitelistesi/aktivitelistesi_widget.dart' show AktivitelistesiWidget;
 export 'baslangic/baslangic_widget.dart' show BaslangicWidget;
